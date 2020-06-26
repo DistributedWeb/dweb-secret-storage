@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Joe Hand <joe@hand.email>",
   "bugs": {
-    "url": "https://github.com/joehand/dat-secret-storage/issues"
+    "url": "https://github.com/joehand/dweb-secret-storage/issues"
   },
   "devDependencies": {
     "dwebfs": "^1.0.0",
@@ -13,15 +13,15 @@
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/joehand/dat-secret-storage",
+  "homepage": "https://github.com/joehand/dweb-secret-storage",
   "keywords": [
-    "dat"
+    "dweb"
   ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joehand/dat-secret-storage.git"
+    "url": "https://github.com/joehand/dweb-secret-storage.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
