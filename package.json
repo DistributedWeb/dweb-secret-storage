@@ -2,18 +2,18 @@
   "name": "dweb-secret-storage",
   "description": "Library for securely storing dWeb private keys.",
   "version": "1.0.0",
-  "author": "Joe Hand <joe@hand.email>",
+  "author": "jared jr <jared@gmail.email>",
   "bugs": {
-    "url": "https://github.com/joehand/dweb-secret-storage/issues"
+    "url": "https://github.com/DistributedWeb/dweb-secret-storage/issues"
   },
   "devDependencies": {
-    "dwebfs": "^1.0.0",
+    "dwebfs": "git://github.com/DistributedWeb/dwebfs.git#51a03b37da386825bff5e0459f1943dc727e4e77",
     "random-access-memory": "^2.3.0",
     "standard": "*",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/joehand/dweb-secret-storage",
+  "homepage": "https://github.com/DistributedWeb/dweb-secret-storage",
   "keywords": [
     "dweb"
   ],
@@ -21,7 +21,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joehand/dweb-secret-storage.git"
+    "url": "https://github.com/DistributedWeb/dweb-secret-storage.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
